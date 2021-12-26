@@ -1,0 +1,7 @@
+version: '2'
+services:
+  express1:
+    build:
+      context: .
+    ports:
+      - "3000"
